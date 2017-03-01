@@ -29,10 +29,9 @@ public:
     
     KnowledgeBase(); //Constructor
     
-    bool findFactAssociation(Fact * fact); //Find if this "relationship" exists in the map. 
+    bool findFactAssociation(Fact * fact); //Find the association of a certain fact.
     void AddFact(Fact * fact); //Add a fact to the Knowledge Base FactDictionary.
     Fact * drop(Fact * fact); //Drop fact from the FactDictuionary.
-    //Fact * getFact(string association, vector<string> members);
     
     ~KnowledgeBase(); //Deconstructor to delete the map. 
     
