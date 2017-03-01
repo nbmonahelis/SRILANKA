@@ -26,7 +26,7 @@ public:
     vector<string> members; //The members of the fact. Like John, Paul, Jones.. etc.
     string association; //Their association - Like father, mother.. etc.
     
-    Fact(vector<string> m, string name); //Constructor. m is the members and name is the association.
+    Fact(vector<string> fact, string name); //Vector to hold all of the members, along with their association. 
     
     //Need to write a function to find if a fact exists or not. 
     

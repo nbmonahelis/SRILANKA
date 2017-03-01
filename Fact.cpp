@@ -8,10 +8,11 @@
 
 #include "Fact.hpp"
 
-//Constructor. Initializing the association of this object and the members of this specific Fact association.
-Fact::Fact(vector<string> m, string name)
+//Constructor. Initializing the association of this object
+//and the chain of the relationships.
+Fact::Fact(vector<string> fact, string name)
 {
-    association = name; //Let association be name, and members be  m.
+    association = name;
     members = fact;
     
 }
